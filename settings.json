@@ -1,0 +1,94 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "cSpell.userWords": [
+    "Aichi",
+    "Aomori",
+    "Astro",
+    "Behance",
+    "Boreo",
+    "clsx",
+    "daisyui",
+    "designpedia",
+    "Dribbble",
+    "Ehime",
+    "Emiliano",
+    "envfiles",
+    "Fukui",
+    "Fukushima",
+    "fullscreen",
+    "goenv",
+    "Gunma",
+    "hljs",
+    "hookform",
+    "Hyogo",
+    "Ibaraki",
+    "Ishikawa",
+    "Iwate",
+    "Kagawa",
+    "Kanagawa",
+    "Klass",
+    "Miyagi",
+    "Miyazaki",
+    "NEXTAUTH",
+    "nuxt",
+    "Oita",
+    "openapi",
+    "Pinterest",
+    "Saitama",
+    "seatgeek",
+    "sepolia",
+    "shadcn",
+    "Shiga",
+    "Shimane",
+    "Shuya",
+    "signin",
+    "signout",
+    "Signup",
+    "tailwindcss",
+    "Thirdweb",
+    "tiptap",
+    "Tochigi",
+    "Tokushima",
+    "Tottori",
+    "UVISION",
+    "Wireframes",
+    "Yamaguchi",
+    "Yamanashi",
+    "zustand"
+  ],
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "prettier.semi": false,
+  "prettier.printWidth": 120,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "background.fullscreen": {
+    "images": [
+      "https://imgix.bustle.com/inverse/11/47/d9/c1/8c6d/41cb/86c7/c117175ba1fc/the-main-cast-of-the-star-wars-saga.jpeg"
+    ], // urls of your images
+    "opacity": 0.91, // 0.85 ~ 0.95 recommended
+    "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+    "position": "center", // alias to `background-position`, default `center`
+    "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  },
+  "prettier.singleQuote": true,
+  "window.zoomLevel": 1
+}
